@@ -8,21 +8,20 @@ namespace GuessingGame
     {
         public static void Main(string[] args)
         {
-
             try
             {
-                Service service = new Service();
+                Service service = new();
 
                 Console.WriteLine("Enter the amount");
-                var betAmount = Console.ReadLine();
+                int betAmount = int.Parse(Console.ReadLine());
 
                 Console.WriteLine("Choose difficulty level, 1: Easy, 2: Medium, 3: Difficult");
-                var difficulty = Console.ReadLine();
+                int difficulty = int.Parse(Console.ReadLine());
 
                 Console.WriteLine("Guess Your number");
-                var guessNumber = service.getInput();
+                int guessNumber = service.GetInput();
 
-                var finalResult = service.generateOutput(Convert.ToInt32(betAmount), Convert.ToInt32(guessNumber), Convert.ToInt32(difficulty));
+                string finalResult = service.GenerateOutput(betAmount, guessNumber, difficulty);
                 Console.WriteLine(finalResult);
             }
             catch (Exception e)
