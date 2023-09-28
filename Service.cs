@@ -14,19 +14,15 @@ namespace Game
             return (input);
         }
 
-        public string GenerateOutput(int betAmount, int guessNumber, int difficulty)
+        public static string GenerateOutput(int betAmount, int guessNumber, int difficulty)
         {
-             switch (guessNumber)
+            return guessNumber switch
             {
-                case (< 6) when difficulty == 1:
-                    return GetFinalResult(guessNumber, 1, 5, 5, betAmount);
-                case (< 11) when difficulty == 2:
-                    return GetFinalResult(guessNumber, 1, 10, 10, betAmount);
-                case (< 21) when difficulty == 3:
-                    return GetFinalResult(guessNumber, 1, 20, 10, betAmount);
-                default:
-                    return "Guessed number not in range";
-            }
+                (< 6) when difficulty == 1 => GetFinalResult(guessNumber, 1, 5, 5, betAmount),
+                (< 11) when difficulty == 2 => GetFinalResult(guessNumber, 1, 10, 10, betAmount),
+                (< 21) when difficulty == 3 => GetFinalResult(guessNumber, 1, 20, 10, betAmount),
+                _ => "Guessed number not in range",
+            };
         }
 
         public static string GetFinalResult(int guessNumber, int minRange, int maxRange, int multiplier, int betAmount)

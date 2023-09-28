@@ -21,7 +21,7 @@ namespace GuessingGame
                 Console.WriteLine("Guess Your number");
                 int guessNumber = service.GetInput();
 
-                string finalResult = service.GenerateOutput(betAmount, guessNumber, difficulty);
+                string finalResult = Service.GenerateOutput(betAmount, guessNumber, difficulty);
                 Console.WriteLine(finalResult);
             }
             catch (Exception e)
