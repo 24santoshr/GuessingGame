@@ -1,7 +1,7 @@
 .vscode/*
 src/obj/*
 src/bin/*
-tests/obj*
+tests/obj/*
 tests/bin/*
 src/obj/Debug/net7.0/GuessingGame.assets.cache
 src/obj/Debug/net7.0/GuessingGame.csproj.FileListAbsolute.txt
