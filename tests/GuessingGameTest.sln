@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessingGameTest", "GuessingGameTest.csproj", "{E260D054-89FD-49AD-8878-CEDAAE2D27DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E260D054-89FD-49AD-8878-CEDAAE2D27DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E260D054-89FD-49AD-8878-CEDAAE2D27DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E260D054-89FD-49AD-8878-CEDAAE2D27DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E260D054-89FD-49AD-8878-CEDAAE2D27DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0611BB72-5EB8-4743-9DDF-D9BDDBFE305D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0611BB72-5EB8-4743-9DDF-D9BDDBFE305D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0611BB72-5EB8-4743-9DDF-D9BDDBFE305D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0611BB72-5EB8-4743-9DDF-D9BDDBFE305D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D267DCDF-D322-4F36-A301-539DAD1823B4}
+	EndGlobalSection
+EndGlobal
