@@ -8,7 +8,7 @@ namespace Game
             int input = int.Parse(Console.ReadLine());
             if ((input) > 20)
             {
-                Console.WriteLine("Number is outside the range. Please enter within range");
+                Console.WriteLine("Number is outside the range. Please enter within range.");
                 GetInput();
             }
             return (input);
